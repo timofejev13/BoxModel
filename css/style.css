@@ -1,0 +1,47 @@
+body {
+    /*background-color: blue;*/
+    margin:0;
+}
+
+.main {
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+
+.main div {
+    box-sizing: border-box;
+    height:200px;
+    width:200px;
+    border-radius: 5%;
+    font-size: 1.5rem;
+}
+
+.yellow{
+    box-sizing: border-box;
+    background-color: yellow;
+    border: 10px solid black;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.red{
+    box-sizing: border-box;
+    background-color: red;
+    border: 10px solid greenyellow;
+    text-align: center;
+    padding-top: 2rem;
+    margin-left:200px;
+}
+
+.blue{
+    box-sizing: border-box;
+    background-color: blue;
+    border: 10px solid goldenrod;
+    color: WHITE;
+    text-align: right;
+    padding-right: 1rem;
+    margin-left:400px;
+}
